@@ -1,5 +1,5 @@
 FROM python:3.10-slim
-ENV TOKEN='6680716877:AAEyCQi5HRGPe-k9ncxPOASurzXUMROg5Kg'
+ENV TOKEN='your_token'
 COPY . .
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python", "main.py"]
